@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE7FA"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:text="BRAIN TEST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/brain">
+    </ImageView>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/textView_high_score"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:text="Điểm cao : 100"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#E91E63"
+        android:text="CHƠI"
+        android:textColor="@color/black">
+
+    </Button>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:hwads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.hms.ads.banner.BannerView
+            android:id="@+id/hw_banner_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            hwads:adId="testw6vs28auh3"
+            hwads:bannerSize="BANNER_SIZE_360_57"/>
+    </RelativeLayout>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_marginTop="24dp">-->
+
+    <!--        -->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnLogout"-->
+    <!--            android:layout_width="120dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:backgroundTint="#8BC34A"-->
+    <!--            android:text="ĐĂNG XUẤT"-->
+    <!--            android:textColor="@color/black">-->
+
+    <!--        </Button>-->
+    <!--    </LinearLayout>-->
+    <!--    <TextView-->
+    <!--        android:textStyle="italic"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:textSize="18dp"-->
+    <!--        android:text="abcxyz@gmail.com"-->
+    <!--        android:id="@+id/txtEmail"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--    </TextView>-->
+</LinearLayout>

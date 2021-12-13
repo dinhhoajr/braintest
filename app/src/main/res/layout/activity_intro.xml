@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE7FA"
+    android:padding="16dp"
+    tools:context=".activity.IntroActivity">
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4CAF50"
+        android:text="TRỞ VỀ"
+        android:textColor="@color/black">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="GIỚI THIỆU"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="Brain Test là một ứng dụng trò chơi trên nền tảng android, trò chơi được thiết kế theo phương thức giải đố bằng những câu hỏi có độ khó tăng dần theo thứ tự các câu để người chơi vận dụng kiến thức và sự logic của mình để hoàn thành được câu hỏi, điểm số của bạn sẽ được dựa trên số câu hỏi bạn trả lời được.">
+    </TextView>
+</LinearLayout>

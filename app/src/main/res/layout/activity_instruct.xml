@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE7FA"
+    android:padding="16dp"
+    tools:context=".activity.InstructActivity">
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4CAF50"
+        android:text="TRỞ VỀ"
+        android:textColor="@color/black">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="HƯỚNG DẪN"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="- Người chơi sẽ bắt đầu với từng câu hỏi do ứng dụng đưa ra.">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="- Trả lời câu hỏi trên màn hình để chuyển qua câu tiếp theo.">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="- Mỗi câu hỏi sẽ có thời gian 45s để cho bạn đưa ra đáp án.">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="- Click vào 1 trong 4 đáp án được hệ thống đưa ra.">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="- Nhấn nút Xác nhận để qua câu hỏi tiếp theo.">
+    </TextView>
+</LinearLayout>
